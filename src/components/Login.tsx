@@ -14,7 +14,7 @@ const Login: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if ((username === 'admin' && password === 'password') || 
-        (username === 'Devon' && password === 'Heavenishere96$')) {
+       {
       login(username);
       navigate('/dashboard');
     } else {
